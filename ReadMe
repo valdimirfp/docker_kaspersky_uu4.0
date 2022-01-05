@@ -14,3 +14,4 @@ docker run -v /opt/Updates:/opt/Updates -it kasper_uu-4_auto bash
 cd /usr/bin
 ./kavupdater.sh 
 
+https://hub.docker.com/repository/docker/vladimirfp/docker_kaspersky_uu4.0
