@@ -1,11 +1,11 @@
 # create docker 
-docker image build --no-cache=True -t kasp_uu4_auto .
+docker image build --no-cache=True -t docker_kaspersky_uu4.0 .
 
 # check 
 doker images
 
 REPOSITORY         TAG       IMAGE ID       CREATED             SIZE
-kasper_uu-4_auto   latest    50b851b9fb20   About an hour ago   450MB
+docker_kaspersky_uu4.0   latest    50b851b9fb20   About an hour ago   450MB
 
 # enter to docker
 docker run -v /opt/Updates:/opt/Updates -it kasper_uu-4_auto bash
