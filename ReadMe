@@ -1,5 +1,5 @@
 # create docker 
-docker image build -t kasper_uu-4_auto .
+docker image build --no-cache=True -t kasp_uu4_auto .
 
 # check 
 doker images
@@ -11,6 +11,7 @@ kasper_uu-4_auto   latest    50b851b9fb20   About an hour ago   450MB
 docker run -v /opt/Updates:/opt/Updates -it kasper_uu-4_auto bash
 
 # start first task
+cron
 cd /usr/bin
 ./kavupdater.sh 
 
